@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+}
+
+.survey{
+    padding: 5vw;
+}
+
+.heading{
+    font-size: 3vw;
+    font-weight: 800;
+}
+
+.heading2{
+    font-size: 1.5vw;
+}
+
+.form{
+    background: linear-gradient(45deg, #fcdee1, #bb8b9d);
+    padding-left: 5vw;
+    padding-top: 3vh;
+    height: 68.2vh;
+}
+
+.heading3{
+    font-size: 1.5vw;
+    font-weight: 600;
+}
+
+.input1{
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+.name{
+    font-size: 1.7vw;
+}
+
+#name{
+    font-size: 1.3vw;
+    border-radius: 0.5vw;
+    padding: 0.5vw;
+    width: 35vw;
+    margin-left: 6.5vw;
+    border: 0;
+}
+
+.input2{
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+.address{
+    font-size: 1.7vw;
+}
+
+#address{
+    font-size: 1.3vw;
+    border-radius: 0.5vw;
+    padding: 0.5vw;
+    width: 60vw;
+    border: 0;
+    margin-left: 5vw;
+}
+
+.input3{
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+.email{
+    font-size: 1.7vw;
+}
+
+#email{
+    font-size: 1.3vw;
+    border-radius: 0.5vw;
+    padding: 0.5vw;
+    width: 60vw;
+    margin-left: 6.5vw;
+    border: 0;
+}
+
+.input4{
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+.phone{
+    font-size: 1.7vw;
+}
+
+#phone{
+    font-size: 1.3vw;
+    border-radius: 0.5vw;
+    padding: 0.5vw;
+    width: 60vw;
+    margin-left: 6.4vw;
+    border: 0;
+}
+
+.btn{
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+#btn{
+    margin-left: 45%;
+    font-size: 1.5vw;
+    padding: 0.5vw;
+    border-radius: 0.5vw;
+    border: 0;
+    cursor: pointer;
+}
+
+@media (max-width:600px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    .main{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .survey{
+        padding: 10vw;
+    }
+    
+    .heading{
+        font-size: 8vw;
+        font-weight: 800;
+    }
+    
+    .heading2{
+        font-size: 3vw;
+    }
+    
+    .form{
+        background: linear-gradient(45deg, #fcdee1, #bb8b9d);
+        padding-left: 10vw;
+        padding-top: 3vh;
+        height: 75vh;
+    }
+    
+    .heading3{
+        font-size: 5vw;
+        font-weight: 600;
+    }
+    
+    .input1{
+        padding-top: 3vh;
+        padding-bottom: 3vh;
+    }
+    
+    .name{
+        font-size: 5vw;
+    }
+    
+    #name{
+        font-size: 4vw;
+        border-radius: 0.5vw;
+        padding: 0.5vw;
+        width: 50vw;
+        margin-left: 6.5vw;
+        border: 0;
+    }
+    
+    .input2{
+        padding-top: 3vh;
+        padding-bottom: 3vh;
+    }
+    
+    .address{
+        font-size: 5vw;
+    }
+    
+    #address{
+        font-size: 4vw;
+        border-radius: 0.5vw;
+        padding: 0.5vw;
+        width: 60vw;
+        border: 0;
+        margin-left: 2.2vw;
+    }
+    
+    .input3{
+        padding-top: 3vh;
+        padding-bottom: 3vh;
+    }
+    
+    .email{
+        font-size: 5vw;
+    }
+    
+    #email{
+        font-size: 5vw;
+        border-radius: 0.5vw;
+        padding: 0.5vw;
+        width: 60vw;
+        margin-left: 6.5vw;
+        border: 0;
+    }
+    
+    .input4{
+        padding-top: 3vh;
+        padding-bottom: 3vh;
+    }
+    
+    .phone{
+        font-size: 5vw;
+    }
+    
+    #phone{
+        font-size: 5vw;
+        border-radius: 0.5vw;
+        padding: 0.5vw;
+        width: 60vw;
+        margin-left: 6.4vw;
+        border: 0;
+    }
+    
+    .btn{
+        padding-top: 3vh;
+        padding-bottom: 3vh;
+    }
+    
+    #btn{
+        margin-left: 35%;
+        font-size: 5vw;
+        padding: 0.5vw;
+        border-radius: 0.5vw;
+        border: 0;
+        cursor: pointer;
+    }
+}

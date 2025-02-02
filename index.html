@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form - Practice</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Parent div containing two child div. -->
+    <div class="main">
+      <!-- This is the first child div -->
+      <div class="survey">
+        <div class="heading">SURVEY FORM</div>
+        <div class="heading2">
+          We appreciate your participation in our industry. Please take the
+          survey & leave a remark below to help with future improvement.
+        </div>
+      </div>
+
+      <!-- This is the second child div -->
+      <div class="form">
+        <div class="heading3">Personal Information</div>
+        <div class="formElement">
+          <form action="http://localhost/php/insertData.php" method="post">
+            <div class="input1">
+              <label for="name" class="name">Name</label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Enter your name..."
+                autocomplete="off"
+              />
+            </div>
+
+            <div class="input2">
+              <label for="address" class="address">Address</label>
+              <input
+                type="text"
+                name="address"
+                id="address"
+                placeholder="Enter your address..."
+                autocomplete="off"
+              />
+            </div>
+
+            <div class="input3">
+              <label for="email" class="email">Email</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Enter your email..."
+                autocomplete="off"
+              />
+            </div>
+
+            <div class="input4">
+              <label for="phone" class="phone">Phone</label>
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
+                placeholder="123-456-7890..."
+                autocomplete="off"
+              />
+            </div>
+
+            <div class="btn">
+              <button type="submit" id="btn">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
